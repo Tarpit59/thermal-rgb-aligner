@@ -7,8 +7,8 @@ This project aligns thermal images to RGB images using grayscale preprocessing a
 ```plaintext
 .
 ├── align_grayscale.py           # Main script
-├── input-images/                # Folder for paired thermal and RGB images
-├── output-images/               # Folder for saving aligned outputs
+├── input-images/                # Folder of sample paired thermal and RGB images
+├── output-images/               # Folder of sample aligned outputs
 ├── requirements.txt             # Required Python packages
 └── README.md                    # Project documentation
 ```
@@ -18,7 +18,7 @@ This project aligns thermal images to RGB images using grayscale preprocessing a
 
 - input-images/ – Folder containing input image pairs (*_T.JPG for thermal, *_Z.JPG for RGB).
 
-- output-images/ – Output folder where aligned thermal images are saved.
+- output-images/ – Folder containing output images (*_AT.JPG for aligned thermal).
 
 ## ⚙️ Setup Instructions
 
